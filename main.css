@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@400;700&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar{
+    background-color: #313030;
+}
+
+#cabecalho .nav .nav-link.active{
+    background-color: #fff;
+    color: #313030;
+}
+
+#cabecalho .nav .nav-link, .navbar-brand, .navbar-brand:hover, .nav-categorias .nav-link.active:hover {
+    color: #fff;
+}
+
+
+.navbar-toggler{
+    background-color: #ffeae6;
+}
+
+.carousel img{
+    width: 100%;
+}
+
+#home{
+    background-color: #bbbaba;
+}
+
+#capas-destaque .carousel img{
+    width: 15%;
+}
+
+#capas-destaque button{
+    width: 15%;
+}
+
+.section-title{
+    font-weight: 700;
+}
+
+
+#about, #cardapio{
+    background-color: #ffeae6;
+}
+
+.text-colored{
+    color: #313030;
+}
+
+.nav-categorias .nav-link.active,
+#contato button{
+    background-color: #313030;
+    color: #fff;
+}
+
+.nav-categorias .nav-link:hover{
+    color: #313030;
+}
+
+.social-links li{
+    list-style: none;
+    display: inline;
+}
+
+.social-links a{
+    text-decoration: none;
+}
+
+
+@media (max-width:767px){
+    .carousel-item img{
+        height: 280px;
+    }
+
+    #capas-destaque .carousel img{
+        width: 18%;
+        height: 80%;
+    }
+}
+
+@media (max-width:767px){
+    .carousel-top img{
+        height: 20vh;
+    }   
+}
